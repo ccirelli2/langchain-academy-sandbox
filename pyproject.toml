@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langchain-academy-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["ccirelli2 <ccirelli2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^1.2.3"
+langchain-core = "^1.2.6"
+langchain-openai = "^1.1.7"
+jupyter = "^1.1.1"
+lab = "^8.6"
+python-dotenv = "^1.2.1"
+black = "^25.12.0"
+py-sync-dotenv = "^0.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
